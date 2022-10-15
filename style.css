@@ -1,0 +1,220 @@
+body{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background-color: #343a40;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+    color: #ffff;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: #ffee32;
+    color: black;
+    box-shadow: 0 0 10px #ffee32;
+}
+@media (max-width: 600px){
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+}
+/* Home Section */
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.child{
+    flex-basis: 33.33%;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.child img{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.child h3{
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.child p{
+    text-align: center;
+    color: #252422;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    
+}
+.child button{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 45px;
+    font-size: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    transition: all .5s ease;
+}
+.child button:hover{
+    background-color: tan;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+
+
+/* About Section */
+.main{
+    display: flex;
+    
+}
+.main img{
+    width: 50%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 20px;
+    margin-top: 15%;
+    margin-left: 5%;
+    
+}
+.main p{
+   text-align: center;
+   width: 60%;
+   font-weight: bolder;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 1rem;
+   margin-top: 40%;
+   margin-left: 140px;
+}
+
+
+/* Products Section */
+#products{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 20px;       
+    margin: 25px;
+    padding: 20px;   
+    width: 20%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card img{
+    width: 90%;
+    border-radius: 20px;
+}
+.price{
+ color: black;
+ font-size: 23px;
+}
+.card button{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #343a40;
+}
+/* Contact Section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 35%;
+    border: none;
+    outline: none;
+}
+.submit{
+    width: 35%;
+    margin: 15px;
+    padding: 12px;
+    cursor: pointer;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit:hover{
+    background-color: tan;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+.icon{
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+
